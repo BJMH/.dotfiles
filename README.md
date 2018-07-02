@@ -6,7 +6,7 @@ This contains my dotfiles being used on Arch Linux, which are symlinked to the a
 
 * Clone this repository into `~/.dotfiles`.
 * Run `stow <program>` on any of the dotfiles you wish to use. e.g. `stow bspwm`
-* Or, run `./stowall.sh` to install all.
+* Or, run `bash stowall.sh` to install all.
 
 ## Uninstalling 
 
@@ -14,7 +14,7 @@ This contains my dotfiles being used on Arch Linux, which are symlinked to the a
 
 ## Updating
 
-If you change any files in `~/.dotfiles`, run `./stowall.sh` or `stow -R <program>`
+If you change any files in `~/.dotfiles`, run `bash stowall.sh` or `stow -R <program>`
 
 ## Explanation 
 
