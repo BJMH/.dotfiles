@@ -1,0 +1,4 @@
+[ "$XDG_CURRENT_DESKTOP" = "KDE" ] || [ "$XDG_CURRENT_DESKTOP" = "GNOME" ] || export QT_QPA_PLATFORMTHEME="qt5ct"
+sudo wpa_supplicant -B -D wext -i wlp7s0 -c /etc/wpa_supplicant.conf
+sudo dhcpcd wlp7s0export
+sudo ckb-next-daemon
